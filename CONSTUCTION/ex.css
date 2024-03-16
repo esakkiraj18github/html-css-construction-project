@@ -1,0 +1,287 @@
+body{
+	/*background-image: url('back.png');
+	height: 70vh;
+     background-repeat: no-repeat;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+     margin: 0px;
+     padding: 0px;*/
+/*     background-color: #00FFFF;*/
+}
+.section{
+	display: flex;
+	justify-content: space-between;
+	font-size: 2em;
+	background-color: white;
+	color: black;
+	margin-bottom: 50px;
+	
+	
+}
+.section > ul{
+      display: flex;
+}
+.section > ul >li{
+	line-height: 1;
+	padding: 20px;
+	list-style: none;
+	display: inline-block;
+	text-transform: capitalize;
+
+}
+span{
+	color: cyan;
+}
+.section > ul > li:hover{
+	cursor: pointer;
+	color: grey;
+}
+
+.section1{
+	display: flex;
+	
+}
+h1{
+	font-size: 4em;
+	margin-left: 30px;
+	margin-right: 30px;
+/*	background-color: #F8F8FF;*/
+	padding: 40px;
+	align-items: center;
+	text-transform: capitalize;
+	font-family: sans-serif;
+	text-align: center;
+	color: #800000;
+
+
+
+}
+h1:hover{
+	text-decoration: underline;
+	cursor: pointer;
+
+}
+.para > p{
+	font-size: 30px;
+	margin-left: 30px;
+	text-align: justify;
+	margin-right: 50px;
+   
+}
+.para > p > span{
+	color: red;
+}
+.main-image > img{
+	margin-top: 40px;
+}
+
+.container > h2{
+      
+      font-size: 3em;
+      font-family: monospace;
+      background-color: #8B0000;
+      color: whitesmoke;
+      padding: 30px;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+}
+.container1{
+	display: flex;
+	margin-left: 40px;
+}
+.container1 > img{
+	margin-right: 80px;
+}
+.image{
+	margin-left: 200px;
+	justify-content: flex-end;
+	margin-top: 30px;
+	margin-right: 10PX;
+}
+.text > h3{
+	font-size: 2em;
+	font-weight: bold;
+
+
+}
+.text > ol > li{
+	font-size: 1.5em;
+	text-transform: capitalize;
+	font-weight: bold;
+
+}
+.container2{
+	display: flex;
+	margin-left: 40px;
+	justify-content: space-around;
+    align-items: center;
+}
+.container2 > h4{
+	font-size: 1.5em;
+	text-transform: capitalize;
+}
+.text2{
+	
+	margin-left: 200px;
+	text-transform: capitalize;
+
+}
+.text2 > h2{
+	font-size: 2em;
+	font-weight: bold;
+
+
+}
+.text2 > ol >li{
+	font-size: 1.5em;
+	text-transform: capitalize;
+	font-weight: bold;
+
+	
+}
+.container2 > img{
+	margin-left: 30px;
+	margin-top: 70px;
+	
+	
+}
+.container3{
+	display: flex;
+	justify-content: space-between;
+}
+.text3{
+	margin-left: 30px;
+	text-transform: capitalize;
+}
+.text3 > h3{
+	font-size: 2em;
+	font-weight: bold;
+
+
+}
+.text3 > ol > li{
+	font-size: 1.5em;
+	font-weight: bold;
+
+}
+.image2{
+	margin-top: 50px;
+	margin-right: 50px;
+
+}
+.content{
+
+	font-size: 2.5em;
+	font-family: monospace;
+	padding: 10px;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	background-color: #8B0000;
+	color: whitesmoke;
+	text-transform: capitalize;
+}
+.container4{
+	display: flex;
+	margin-left: 40px;
+
+}
+.text4 > P{
+	font-size: 30px;
+	margin-left: 20px;
+      text-align: justify;
+      justify-content: space-around;
+      margin-right: 30px;
+}
+/*.button{
+	border: solid 1px;
+	border-radius: 16px;
+	border-width: 3px;
+	font-size: 25px;
+	color: #9932CC;
+	text-align: center;
+	justify-content: center;
+	margin-left: 70px;
+	padding: 10px;
+	text-decoration: none;
+
+}
+.button:hover{
+	text-decoration:underline ;
+}*/
+./*image3 > img{
+	animation: image 0.4s ease-in-out;
+}
+@keyframes image{
+	0%{
+		transform: translateY(-40%);
+	}
+}*/
+.image3{
+     margin-right: 50px;
+}
+.footer{
+   background-image: url(' cunsulting4.jpg');
+   height: 80vh;
+   background-repeat: no-repeat;
+   width: 100%;
+   background-size: cover;
+   background-position: center;
+   margin: 0px;
+   padding: 0px;
+}
+.text5 > h4{
+	font-size: 6em;
+	text-align: center;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	color: #000000;
+	font-family: monospace;
+}
+.text5 > h2{
+	font-size: 7em;
+	text-align: center;
+	text-transform: capitalize;
+	margin-top: 50px;
+	color: #000000;
+	margin-left: 40px;
+	font-family: monospace;
+
+}
+.contact{
+	text-decoration: none;
+	font-size: 2em;
+	text-align: center;
+	margin-left: 550px;
+	border: solid 3px #ccc;
+	background-color: darkorange;
+	color: white;
+	border-radius: 18px;
+/*	width: 80px;*/
+	text-transform: capitalize;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+.contact:hover{
+	background-color: skyblue;
+	color: black;
+	border: none;
+	border-radius: none;
+}
+.end{
+	background-color: #483D8B;
+}
+.end >h6{
+	font-size: 1.8em;
+	text-align: center;
+      text-transform: capitalize;
+      font-family: serif;
+      padding: 20px;
+      width: auto;
+      margin: 0px;
+}
+.end > h6 >span{
+	color: #ccc;
+}
